@@ -1,0 +1,5 @@
+<div class="container" *ngIf="bundlesWithSavings.length > 0">
+  @for (bundle of bundlesWithSavings; track bundle.id) {
+    <app-bundle-card [bundle]="bundle"/>
+  }
+</div>

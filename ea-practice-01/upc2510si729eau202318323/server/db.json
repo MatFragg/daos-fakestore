@@ -1,0 +1,295 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Laptop Premium",
+      "description": "Laptop de alto rendimiento con procesador i9 y 32GB RAM",
+      "photoUrl": "https://example.com/laptop-premium.jpg",
+      "price": 1299.99,
+      "bundleId": 1,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "title": "Mouse Inalámbrico",
+      "description": "Mouse ergonómico con batería de larga duración",
+      "photoUrl": "https://example.com/mouse.jpg",
+      "price": 49.99,
+      "bundleId": 1,
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "title": "Teclado Mecánico",
+      "description": "Teclado mecánico retroiluminado con switches Cherry MX",
+      "photoUrl": "https://example.com/teclado.jpg",
+      "price": 129.99,
+      "bundleId": 1,
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "title": "Monitor 4K",
+      "description": "Monitor de 32 pulgadas con resolución 4K y HDR",
+      "photoUrl": "https://example.com/monitor.jpg",
+      "price": 399.99,
+      "bundleId": 1,
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "title": "Smartphone Ultimate",
+      "description": "Smartphone con cámara de 108MP y 12GB RAM",
+      "photoUrl": "https://example.com/smartphone.jpg",
+      "price": 999.99,
+      "bundleId": 2,
+      "rating": 4.9
+    },
+    {
+      "id": 6,
+      "title": "Auriculares Bluetooth",
+      "description": "Auriculares con cancelación de ruido y 30h de batería",
+      "photoUrl": "https://example.com/auriculares.jpg",
+      "price": 199.99,
+      "bundleId": 2,
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "title": "Cargador Inalámbrico",
+      "description": "Cargador rápido con tecnología Qi",
+      "photoUrl": "https://example.com/cargador.jpg",
+      "price": 59.99,
+      "bundleId": 2,
+      "rating": 4.3
+    },
+    {
+      "id": 8,
+      "title": "Tablet Pro",
+      "description": "Tablet de 12.9 pulgadas con stylus incluido",
+      "photoUrl": "https://example.com/tablet.jpg",
+      "price": 799.99,
+      "bundleId": 3,
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "title": "Funda para Tablet",
+      "description": "Funda protectora con soporte incorporado",
+      "photoUrl": "https://example.com/funda.jpg",
+      "price": 49.99,
+      "bundleId": 3,
+      "rating": 4.4
+    },
+    {
+      "id": 10,
+      "title": "Lápiz Digital",
+      "description": "Lápiz con sensibilidad a la presión y carga rápida",
+      "photoUrl": "https://example.com/lapiz.jpg",
+      "price": 99.99,
+      "bundleId": 3,
+      "rating": 4.6
+    },
+    {
+      "id": 11,
+      "title": "Smartwatch Deportivo",
+      "description": "Reloj inteligente con monitor de ritmo cardíaco y GPS integrado",
+      "photoUrl": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+      "price": 199.99,
+      "bundleId": 4,
+      "rating": 4.6
+    },
+    {
+      "id": 12,
+      "title": "Cámara de Acción 4K",
+      "description": "Cámara resistente al agua con grabación en 4K y estabilización",
+      "photoUrl": "https://images.unsplash.com/photo-1519183071298-a2962be54afa",
+      "price": 249.99,
+      "bundleId": 4,
+      "rating": 4.7
+    },
+    {
+      "id": 13,
+      "title": "Drone Profesional",
+      "description": "Drone con cámara 4K y 30 minutos de vuelo",
+      "photoUrl": "https://images.unsplash.com/photo-1508610048659-a06b669e9b70",
+      "price": 599.99,
+      "bundleId": 4,
+      "rating": 4.8
+    },
+    {
+      "id": 14,
+      "title": "Consola de Videojuegos",
+      "description": "Consola de última generación con 1TB de almacenamiento",
+      "photoUrl": "https://images.unsplash.com/photo-1606813909024-5d1b0e5b5d1b",
+      "price": 499.99,
+      "bundleId": 5,
+      "rating": 4.9
+    },
+    {
+      "id": 15,
+      "title": "Control Inalámbrico",
+      "description": "Control ergonómico con respuesta háptica y batería recargable",
+      "photoUrl": "https://images.unsplash.com/photo-1587202372775-0d52c1e7c2d3",
+      "price": 69.99,
+      "bundleId": 5,
+      "rating": 4.5
+    },
+    {
+      "id": 16,
+      "title": "Auriculares Gaming",
+      "description": "Auriculares con sonido envolvente y micrófono con cancelación de ruido",
+      "photoUrl": "https://images.unsplash.com/photo-1615800000000-0d52c1e7c2d3",
+      "price": 89.99,
+      "bundleId": 5,
+      "rating": 4.6
+    },
+    {
+      "id": 17,
+      "title": "Cámara DSLR",
+      "description": "Cámara réflex digital con lente de 18-55mm y sensor de 24MP",
+      "photoUrl": "https://images.unsplash.com/photo-1519183071298-a2962be54afa",
+      "price": 699.99,
+      "bundleId": 6,
+      "rating": 4.7
+    },
+    {
+      "id": 18,
+      "title": "Trípode Profesional",
+      "description": "Trípode de aluminio con altura ajustable y cabeza panorámica",
+      "photoUrl": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+      "price": 129.99,
+      "bundleId": 6,
+      "rating": 4.5
+    },
+    {
+      "id": 19,
+      "title": "Mochila para Cámara",
+      "description": "Mochila resistente al agua con compartimentos acolchados",
+      "photoUrl": "https://images.unsplash.com/photo-1508610048659-a06b669e9b70",
+      "price": 89.99,
+      "bundleId": 6,
+      "rating": 4.6
+    },
+    {
+      "id": 20,
+      "title": "Proyector Portátil",
+      "description": "Proyector con resolución Full HD y conexión inalámbrica",
+      "photoUrl": "https://images.unsplash.com/photo-1606813909024-5d1b0e5b5d1b",
+      "price": 299.99,
+      "bundleId": 7,
+      "rating": 4.4
+    },
+    {
+      "id": 21,
+      "title": "Pantalla de Proyección",
+      "description": "Pantalla de 100 pulgadas con trípode ajustable",
+      "photoUrl": "https://images.unsplash.com/photo-1587202372775-0d52c1e7c2d3",
+      "price": 149.99,
+      "bundleId": 7,
+      "rating": 4.5
+    },
+    {
+      "id": 22,
+      "title": "Sistema de Sonido",
+      "description": "Sistema de sonido envolvente 5.1 con subwoofer",
+      "photoUrl": "https://images.unsplash.com/photo-1615800000000-0d52c1e7c2d3",
+      "price": 399.99,
+      "bundleId": 7,
+      "rating": 4.7
+    },
+    {
+      "id": 23,
+      "title": "Router Wi-Fi 6",
+      "description": "Router de alta velocidad con tecnología Wi-Fi 6 y cobertura amplia",
+      "photoUrl": "https://images.unsplash.com/photo-1519183071298-a2962be54afa",
+      "price": 149.99,
+      "bundleId": 8,
+      "rating": 4.6
+    },
+    {
+      "id": 24,
+      "title": "Extensor de Señal",
+      "description": "Extensor de señal Wi-Fi con fácil configuración y alta compatibilidad",
+      "photoUrl": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+      "price": 79.99,
+      "bundleId": 8,
+      "rating": 4.4
+    },
+    {
+      "id": 25,
+      "title": "Cámara de Seguridad",
+      "description": "Cámara IP con visión nocturna y detección de movimiento",
+      "photoUrl": "https://images.unsplash.com/photo-1508610048659-a06b669e9b70",
+      "price": 129.99,
+      "bundleId": 8,
+      "rating": 4.5
+    }
+  ],
+  "bundles": [
+    {
+      "id": 1,
+      "title": "Pack Escritorio Premium",
+      "description": "Todo lo que necesitas para tu setup de trabajo profesional",
+      "photoUrl": "https://example.com/bundle-escritorio.jpg",
+      "price": 1699.99,
+      "rating": 4.9
+    },
+    {
+      "id": 2,
+      "title": "Pack Smartphone Completo",
+      "description": "Smartphone y accesorios esenciales para una experiencia óptima",
+      "photoUrl": "https://example.com/bundle-smartphone.jpg",
+      "price": 1199.99,
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "title": "Pack Tablet Profesional",
+      "description": "Tablet con accesorios para creativos y profesionales",
+      "photoUrl": "https://example.com/bundle-tablet.jpg",
+      "price": 899.99,
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "title": "Pack Aventura Extrema",
+      "description": "Equipamiento esencial para tus aventuras al aire libre",
+      "photoUrl": "https://images.unsplash.com/photo-1519183071298-a2962be54afa",
+      "price": 1049.97,
+      "rating": 4.8
+    },
+    {
+      "id": 5,
+      "title": "Pack Gamer Pro",
+      "description": "Todo lo que necesitas para una experiencia de juego inmersiva",
+      "photoUrl": "https://images.unsplash.com/photo-1606813909024-5d1b0e5b5d1b",
+      "price": 659.97,
+      "rating": 4.9
+    },
+    {
+      "id": 6,
+      "title": "Pack Fotografía Profesional",
+      "description": "Equipo completo para fotógrafos exigentes",
+      "photoUrl": "https://images.unsplash.com/photo-1519183071298-a2962be54afa",
+      "price": 919.97,
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "title": "Pack Cine en Casa",
+      "description": "Transforma tu sala en un cine con este completo paquete",
+      "photoUrl": "https://images.unsplash.com/photo-1606813909024-5d1b0e5b5d1b",
+      "price": 849.97,
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "title": "Pack Hogar Conectado",
+      "description": "Mejora la conectividad y seguridad de tu hogar",
+      "photoUrl": "https://images.unsplash.com/photo-1519183071298-a2962be54afa",
+      "price": 359.97,
+      "rating": 4.5
+    }
+  ]
+}

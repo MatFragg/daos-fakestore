@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-card-header>
+    <div class="">
+      <div><h3>{{bundle.title}}</h3></div>
+      <div><img [ngSrc]="bundle.photoUrl" (error)="onImageError($event)" alt="Bundle Photo" width="300" height="200" *ngIf="bundle.photoUrl"></div>
+    </div>
+  </mat-card-header>
+  <mat-card-content>
+    <p style="max-width: 400px; word-wrap: break-word;"><strong>Description</strong>: {{bundle.description}}</p>
+    <p><strong>Price</strong>: {{bundle.price | currency: 'USD' : 'symbol' : '1.2-2'}}</p>
+    <p><strong>Rating</strong>: {{bundle.rating}}</p>
+    <p *ngIf="bundle.youSave > 0"><strong>You save</strong>: {{bundle.youSave | currency: 'USD': 'symbol': '1.2-2'}}</p>
+
+  </mat-card-content>
+</mat-card>
