@@ -1,0 +1,7 @@
+<div>
+    <h1>Registered Events</h1>
+    @for (event of events; track event.id) {
+        <app-event-sumarry-card [event]="event"/>
+    }
+    
+</div>

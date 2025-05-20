@@ -1,0 +1,19 @@
+{
+  "EVENT_RATING": {
+    "TITLE": "Calificación del Evento",
+    "ADD_RATING_TITLE": "Agrega una calificación para el evento al que asististe",
+    "TICKET_IDENTIFIER": "Identificador de Ticket",
+    "RATING": "Calificación",
+    "SUBMIT_BUTTON": "Calificar Evento",
+    "ERRORS": {
+      "REQUIRED_TICKET": "El identificador de ticket es obligatorio",
+      "REQUIRED_RATING": "La calificación es obligatoria",
+      "RANGE": "La calificación debe estar entre 1 y 5"
+    }
+  },
+    "footer": {
+    "rights": "Derechos de autor © 2025 {{ api }}, Todos los derechos reservados",
+    "intro": "Desarrollado ",
+    "author": "por el Equipo {{ team }}"
+  }
+}

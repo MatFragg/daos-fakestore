@@ -1,0 +1,19 @@
+{
+  "EVENT_RATING": {
+    "TITLE": "Event Rating",
+    "ADD_RATING_TITLE": "Add a Rating for the Event you attended",
+    "TICKET_IDENTIFIER": "Ticket Identifier",
+    "RATING": "Rating",
+    "SUBMIT_BUTTON": "Rate Event",
+    "ERRORS": {
+      "REQUIRED_TICKET": "Ticket identifier is required",
+      "REQUIRED_RATING": "Rating is required",
+      "RANGE": "Rating must be between 1 and 5"
+    }
+  },
+    "footer": {
+    "rights": "Copyright © 2025 {{ api }}, All rights reserved",
+    "intro": "Developed ",
+    "author": "by {{ team }} Team"
+  }
+}

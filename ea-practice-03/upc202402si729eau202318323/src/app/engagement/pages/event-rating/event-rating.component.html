@@ -1,0 +1,35 @@
+<h1>{{ 'EVENT_RATING.TITLE' | translate }}</h1>
+
+<section aria-labelledby="rating-section-title">
+  <h2 id="rating-section-title">{{ 'EVENT_RATING.ADD_RATING_TITLE' | translate }}</h2>
+
+  <form [formGroup]="ratingForm" (ngSubmit)="onSubmit()" aria-label="Event Rating Form">
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>{{ 'EVENT_RATING.TICKET_IDENTIFIER' | translate }}</mat-label>
+      <input matInput formControlName="tickedIdentifier" required aria-required="true" />
+      <mat-error *ngIf="ratingForm.get('tickedIdentifier')?.hasError('required')">
+        {{ 'EVENT_RATING.ERRORS.REQUIRED_TICKET' | translate }}
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>{{ 'EVENT_RATING.RATING' | translate }}</mat-label>
+      <input matInput type="number" formControlName="rating" required min="1" max="5" aria-required="true" />
+      <mat-error *ngIf="ratingForm.get('rating')?.hasError('required')">
+        {{ 'EVENT_RATING.ERRORS.REQUIRED_RATING' | translate }}
+      </mat-error>
+      <mat-error *ngIf="ratingForm.get('rating')?.hasError('min') || ratingForm.get('rating')?.hasError('max')">
+        {{ 'EVENT_RATING.ERRORS.RANGE' | translate }}
+      </mat-error>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="ratingForm.invalid">
+      {{ 'EVENT_RATING.SUBMIT_BUTTON' | translate }}
+    </button>
+  </form>
+
+  <div *ngIf="message" [ngClass]="messageType === 'success' ? 'message-success' : 'message-error'" role="alert">
+    {{ message }}
+  </div>
+</section>
